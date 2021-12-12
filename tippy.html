@@ -9,14 +9,31 @@
 
     <body>
 
-        <h1>Tippy</h1>
 
         <div class="tip-cont">
-            <input name="tip-input" id="tip-input" type="text"/>
-            <button onclick="calcTip();">Calculate Tip</button>
-            <div id="cost-label">Cost goes here</div>
-            <div id="tip-label">Tip goes here</div>
-            <div id="total-label">Total goes here</div>
+            <div>
+                <h1>Tippy</h1>
+            </div>
+
+            
+            <div class="bill-amount-group">
+                <label for="tip-input">Enter bill amount:</label>
+                <input name="tip-input" id="tip-input" type="text"/>
+            </div>
+
+            <div class="tip-amount-group">
+                <label for="tip-amount">Choose tip amount:</label>
+                <select name="tip-amount" id="tip-amount">
+                    <option value="10ten">10%</option>
+                    <option value="15fifteen">15%</option>
+                    <option value="20twenty">20%</option>
+                </select>
+            </div>
+
+                <button onclick="calcTip();">Calculate Tip</button>
+                <div id="cost-label">Cost goes here</div>
+                <div id="tip-label">Tip goes here</div>
+                <div id="total-label">Total goes here</div>
         </div>
 
         <!---
