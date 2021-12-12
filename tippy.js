@@ -16,7 +16,13 @@ function calcTip () {
     console.log( sel.value );
 
     /*check value chosen and assign tip ammouny */
-    if (sel.value === "10ten") {
+    if (sel.value === "5five") {
+
+        var tipValue = 0.05;
+        console.log(tipValue);
+    }
+
+    else if (sel.value === "10ten") {
 
         var tipValue = 0.10;
         console.log(tipValue);
