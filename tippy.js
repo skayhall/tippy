@@ -42,7 +42,7 @@ function calcTip () {
     }
 
 
-    /*grab cost and multiply by tip amount, then display display tip amount*/
+    /*grab cost and multiply by tip amount, then display tip amount*/
     let tipAmount = document.querySelector('#tip-input').value * `${tipValue}`;
     document.querySelector("#tip-label").innerHTML=`Tip Amount: $ ${tipAmount}`;
     console.log(typeof tipAmount);
